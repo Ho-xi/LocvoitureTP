@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Location de voiture</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+    <div class="container">
+        <div class="entete"> 
+            <!--Image d'entete-->
+
+            <div class=fondEntete >
+                <img src="images\fond.jpg" alt="image d'illustration " style= ="width:100%;height:auto;">>
+            </div>
+
+            <!--texte d'introduction-->
+
+            <div class=texteEntete>
+                <h1>Bienvenue à Bord</h1>
+                <p>Location de voiture 24h/24 et 7j/7</p>
+            </div>
+
+            <!--liste des bouton devant l'image-->
+            
+            <div class=bouton>
+                
+                <select name="adresse de ">
+                    <option value="valeur1" [selected]>Adresse de départ</option>
+                    <option value="valeur2">Vroum Vroum Express</option>
+                    <option value="valeur2">Coin du Bolide</option>
+                    <option value="valeur2">Caravane Fantastique</option>
+                    <option value="valeur2">Quatre Roues Rigolotes</option>
+                    <option value="valeur2">Speedy Wheels Location</option>
+                    <option value="valeur2">Volants et Fantaisies</option>
+                    <option value="valeur2">Marseilleroad</option>
+                </select>
+
+                <label for="start">Début de la Location</label>
+                <input type="date" id="start" name="trip-start" value="2018-07-22" min="2018-01-01" max="2018-12-31" />
+
+                <label for="start">Fin de la Location de la Location</label>
+                <input type="date" id="start" name="trip-start" value="2018-07-22" min="2018-01-01" max="2018-12-31" />
+
+                <input type="submit" value="Valider ma recherche">
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+        <!--table regroupant l'ensemble des voiture présenter en coprs de page-->
+
+        <div>
+                <img src="images\vehicule1.png">
+                Peaugeot 208
+                Diesel, 5 portes, GPS, AutoRadio, Forfait 1000 km (0,5/km supplémentaire)
+                999€ - Agence de Paris
+                <input type="submit" value="Réserver et Payer">
+
+                <img src="images\vehicule2.png">
+                FocusFord
+                Diesel, 5 portes, GPS, AutoRadio, Forfait 1000 km (0,5/km supplémentaire)
+                999€
+                <input type="submit" value="Réserver et Payer">
+            
+                <img src="images\vehicule3.png">
+                Audi A1
+                Diesel, 5 portes, GPS, AutoRadio, Forfait 1000 km (0,55/km supplémentaire),
+                1100 € - Agence de Paris
+                <input type="submit" value="Réserver et Payer">
+            
+            
+                <img src="images\vehicule4.png">
+                Opel Mokka
+                Diesel, 5 portes, GPS, AutoRadio, Forfait 1000 km (0,4/km supplémentaire)
+                1150 € - Agence de Paris
+                <input type="submit" value="Réserver et Payer">
+
+        </div>
+    </div>
+</body>
+
+</html>
